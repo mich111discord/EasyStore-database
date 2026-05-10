@@ -3,7 +3,7 @@
   "name": "Google Chrome",
   "publisher": "Google LLC",
   "verified": true,
-  "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/60px-Google_Chrome_icon_%28February_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20231015142139",
+  "icon_url": "https://www.google.com/chrome/static/images/chrome-logo.svg",
   "install_command": "curl -L -o chrome_setup.exe https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBE1E1581-6422-1E48-0E28-185167761027%7D%26lang%3Dpl%26browser%3D3%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3D-arch_x64-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe",
 "uninstall_command": "powershell -Command \"$exe = (Get-ChildItem -Path 'C:\\Program Files\\Google\\Chrome\\Application' -Filter 'setup.exe' -Recurse | Select-Object -First 1).FullName; if ($exe) { Start-Process $exe -ArgumentList '--uninstall --channel=stable --system-level --force-uninstall' -Wait }\""
 }
