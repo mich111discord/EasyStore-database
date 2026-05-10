@@ -1,2 +1,2 @@
-\\browsers
+
 https://raw.githubusercontent.com/mich111discord/EasyStore-database/refs/heads/main/apps/Google%20LLC/chrome.json
